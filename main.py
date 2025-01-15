@@ -35,8 +35,8 @@ from crawl4ai.extraction_strategy import (
 
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
-logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
 
 class TaskStatus(str, Enum):
     PENDING = "pending"
